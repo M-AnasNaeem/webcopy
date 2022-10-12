@@ -23,6 +23,16 @@
     align-items: center;
 }
 
+.row2 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
 .container {
     padding: 80px 0;
 }
@@ -60,7 +70,6 @@ button {
 .btn:hover {
     background-color: #5011cc;
 }
-
 
 
 p {
@@ -325,3 +334,144 @@ FEATURES
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+/* QUALITY WORK */
+
+
+
+.quality__side1 {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    padding: 32px 0px;
+    align-items: flex-start;
+}
+
+.quality__side2 {
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 5rem;
+    padding-right: 26px;
+}
+
+.pic2 {
+    width: 512px;
+    height: 368px;
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 6px;
+}
+
+.quality__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    color:#243e63;
+    
+}
+
+
+.quality__subtitles {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    margin: 32px 0;
+    line-height: 29px;
+
+}
+
+.quality__subtitle {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.quality__link--btn {
+    font-weight: 600;
+    line-height: 21px;
+    
+}
+
+/* STEPS */
+
+
+
+.steps__side1 {
+    display: flex;
+    /* width: 40%; */
+    flex-direction: column;
+    padding: 32px 0px 32px 20px;
+    align-items: flex-start;
+}
+
+.steps__side2 {
+    padding-right: 26px;
+}
+
+.pic3 {
+    width: 610px;
+    height: 368px;
+
+}
+
+.steps__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    color:#243e63;
+    
+}
+
+
+.steps__subtitle {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.step {
+    /* margin: 0px 16px; */
+    padding: 32px 8px 0px 0px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: flex-start;
+    /* position: relative; */
+}
+
+.step__description {
+    margin: 8px 0px 0px 16px;
+}
+
+.step__heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #243e63;
+}
+
+.step__para {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #718096;
+    margin: 16px 160px 0px 0px;
+
+}
+
+.step__num {
+    padding-top: 8px; 
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    color: #cbd5e0;
+}
+
+
+/* VALUES */
+
+
