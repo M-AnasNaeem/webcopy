@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .row1 {
     width: 100%;
     max-width: 1200px;
@@ -40,7 +41,7 @@
 a {
     text-decoration: none;
     position: relative;
-    
+
 }
 
 .purple {
@@ -77,9 +78,6 @@ p {
     font-weight: 700;
     color: #a0aec0;
 }
-
-
-
 
 /*
 
@@ -127,14 +125,14 @@ NAV BAR
     text-decoration: underline;
     text-decoration-thickness: 2.5px;
     text-underline-offset: 8px;
-    
+
 }
 
 .nav__link--btn {
     margin: 0 24px;
     font-weight: 600;
     line-height: 21px;
-    
+
 }
 
 
@@ -194,7 +192,7 @@ HEADER
     font-size: 36px;
     font-weight: 700;
     color: #1a202c;
-    
+
 }
 
 
@@ -219,7 +217,7 @@ HEADER
 
 
 ::placeholder {
-    color:#a0aec0;
+    color: #a0aec0;
     font-size: 16px;
     font-weight: 500;
 
@@ -249,7 +247,7 @@ HEADER
     font-weight: 600;
     border-radius: 50px;
     border: none;
-    transform: translateX(220px); 
+    transform: translateX(220px);
 }
 
 
@@ -285,7 +283,7 @@ FEATURES
     width: 66px;
     height: 66px;
     padding: 20px;
-    
+
 }
 
 .features__para {
@@ -368,8 +366,8 @@ FEATURES
     font-size: 48px;
     font-weight: 900;
     line-height: 60px;
-    color:#243e63;
-    
+    color: #243e63;
+
 }
 
 
@@ -392,7 +390,7 @@ FEATURES
 .quality__link--btn {
     font-weight: 600;
     line-height: 21px;
-    
+
 }
 
 
@@ -421,8 +419,8 @@ FEATURES
     font-size: 48px;
     font-weight: 900;
     line-height: 60px;
-    color:#243e63;
-    
+    color: #243e63;
+
 }
 
 
@@ -464,7 +462,7 @@ FEATURES
 }
 
 .step__num {
-    padding-top: 8px; 
+    padding-top: 8px;
     font-weight: 600;
     font-size: 36px;
     line-height: 36px;
@@ -501,8 +499,8 @@ FEATURES
     font-size: 48px;
     font-weight: 900;
     line-height: 60px;
-    color:#243e63;
-    
+    color: #243e63;
+
 }
 
 .value__subtitles {
@@ -525,12 +523,12 @@ FEATURES
     font-weight: 600;
     line-height: 21px;
     margin-top: 48px;
-    
+
 }
 
 
 .value__description {
-     margin: 0px 12px 0px 0px;
+    margin: 0px 12px 0px 0px;
 }
 
 .value__heading {
@@ -553,7 +551,7 @@ FEATURES
     display: flex;
 }
 
-.value{
+.value {
     padding-right: 12px;
 }
 
@@ -607,13 +605,14 @@ PRICING
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    color:#1a202c;
+    color: #1a202c;
 }
+
 .pricing__feature--heading1 {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    color:#f7fafc;
+    color: #f7fafc;
 }
 
 .pricing__feature {
@@ -638,6 +637,7 @@ PRICING
     line-height: 33px;
     color: #1a202c;
 }
+
 .pricing__heading1 {
     font-weight: 700;
     font-size: 20px;
@@ -653,6 +653,7 @@ PRICING
     margin: 4px 0px;
 
 }
+
 .pricing__price1 {
     font-weight: 700;
     font-size: 48px;
@@ -668,6 +669,7 @@ PRICING
     line-height: 26px;
     color: #a0aec0;
 }
+
 .pricing__time1 {
     font-weight: 700;
     font-size: 16px;
@@ -683,23 +685,25 @@ PRICING
 .pricing {
     border: 2px solid;
     border-color: rgba(220, 220, 220, 0.5);
-    
+
     border-radius: 10px;
     padding: 0px 32px;
-    margin: 64px 32px 0px 0px ;
+    margin: 64px 32px 0px 0px;
 }
+
 .pricing__1 {
 
     border-radius: 10px;
     padding: 0px 32px;
-    margin: 64px 32px 0px 0px ;
-    background:  linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    margin: 64px 32px 0px 0px;
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
+
 .pricing__2 {
 
     border-radius: 10px;
     padding: 0px 32px;
-    margin: 64px 32px 0px 0px ;
+    margin: 64px 32px 0px 0px;
 }
 
 .pricings__list {
@@ -713,25 +717,27 @@ PRICING
     font-weight: 600;
     line-height: 21px;
     margin: 32px 64px;
-    padding: 12px 44px; 
-    border-radius: 30px;   
+    padding: 12px 44px;
+    border-radius: 30px;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
+
 .btn.pricing__btn1 {
     font-weight: 600;
     line-height: 21px;
     margin: 32px 64px;
-    padding: 12px 44px; 
-    border-radius: 30px;   
-    color:#6415ff;
+    padding: 12px 44px;
+    border-radius: 30px;
+    color: #6415ff;
     background: white;
 }
+
 .btn.pricing__btn2 {
     font-weight: 600;
     line-height: 21px;
     margin: 32px 64px;
-    padding: 12px 44px; 
-    border-radius: 30px;   
+    padding: 12px 44px;
+    border-radius: 30px;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
